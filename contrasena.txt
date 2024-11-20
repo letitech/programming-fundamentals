@@ -1,0 +1,1 @@
+& C:/Users/CENA/AppData/Local/Programs/Python/Python311/python.exe "c:/Users/CENA/Documents/Trabajo/Letitech/Formación/Cursos generales/Fundamentos de programación/programming-fundamentals/Ejemplos/ejemplo13.py"
