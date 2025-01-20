@@ -1,12 +1,5 @@
-#Estoy creando dos variables
-"""
-Esto es un comentario falso multilinea
-"""
-numero1 = 5
-numero2 = 7
+apellido = "Nve"
+pais = "Guinea Ecuatorial"
+ciudad = "Malabo"
 
-decimal = float(numero1)
-texto = str(numero2)
-
-print(decimal)
-print(texto)
+print("El apellido es",apellido, "el país es", pais, "la ciudad es", ciudad)
