@@ -1,19 +1,10 @@
-numero1 = int(input("Ingresa un número"))
-numero2 = int(input("Ingresa un número"))
-numero3 = int(input("Ingresa un número"))
+contrasena = input("Introduce la contraseña: ")
 
-if numero1 > numero2 and numero1 > numero3:
-    if numero2 > numero3:
-        print(numero1, numero2, numero3)
-    else:
-        print(numero1, numero3, numero2)
-if numero2 > numero1 and numero2 > numero3:
-    if numero1 > numero3:
-        print(numero2, numero1, numero3)
-    else:
-        print(numero2, numero3, numero1)
-if numero3 > numero1 and numero3 > numero2:
-    if numero1 > numero2:
-        print(numero3, numero1, numero2)
-    else:
-        print(numero3, numero2, numero1)
+if len(contrasena) < 8:
+    print("La contraseña debe contener un mínimo de 8 caracteres")
+elif contrasena.isalpha() or contrasena.isdigit():
+    print("La contraseña debe combinar letras y números")
+elif contrasena.islower() or contrasena.isupper():
+    print("La contraseña debe combinar mayúsculas y minúsculas")
+else:
+    print("La contraseña es válida")
