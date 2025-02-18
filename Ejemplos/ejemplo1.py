@@ -1,5 +1,12 @@
+"""
+Título: Información personal
+Descripción: Este programa es para la información personal
+Fecha: 17/02/2025
+Autor: Crescencioesono
+"""
+
 apellido = "Nve"
 pais = "Guinea Ecuatorial"
 ciudad = "Malabo"
 
-print("El apellido es",apellido, "el país es", pais, "la ciudad es", ciudad)
+print(apellido, pais, ciudad)
